@@ -1,0 +1,17 @@
+package Praktikum_1;
+
+public class Tanah {
+    double hargaTanah;
+    double luas;
+
+    // Constructor
+    public Tanah(double hargaTanah, double luas) {
+        this.hargaTanah = hargaTanah;
+        this.luas = luas;
+    }
+
+    // Method menghitung harga total
+    public double hitungHargaTotal() {
+        return hargaTanah * luas;
+    }
+}

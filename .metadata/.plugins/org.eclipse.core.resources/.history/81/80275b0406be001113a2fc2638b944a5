@@ -1,0 +1,21 @@
+package Praktikum_1;
+
+import java.util.Scanner;
+
+public class Latihan_2 {
+    public static void main(String[] args) {
+        
+        Scanner input = new Scanner(System.in);
+        double hargaTanah = 100000;
+        System.out.print("Masukkan luas tanah (m2): ");
+        double luas = input.nextDouble();
+        Tanah tanah = new Tanah(hargaTanah, luas)
+        double hargaTotal = tanah.hitungHargaTotal();
+       
+        System.out.println("Harga tanah per m2 : Rp. " + hargaTanah);
+        System.out.println("Luas tanah          : " + luas + " m2");
+        System.out.println("Harga total tanah   : Rp. " + hargaTotal);
+
+        input.close();
+    }
+}
