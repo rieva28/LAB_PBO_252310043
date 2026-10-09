@@ -27,7 +27,7 @@ public class Introduction {
 							// hasilnya disimpan di angka1
 		Dog mydog = new Dog();
 		mydog.hungry();
-		String name = "Tomi";
+		String name = "pompom";
 		mydog.puppyName(name);
 	}
 }
