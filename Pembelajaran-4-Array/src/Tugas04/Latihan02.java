@@ -1,0 +1,19 @@
+package Tugas04;
+
+public class Latihan02 {
+    public static void main(String[] args) {
+
+        int[] nilai = new int[5];
+
+        for (int i = 0; i < nilai.length; i++) {
+            nilai[i] = (i + 1) * 5;
+        }
+
+        System.out.println("Data Nilai Array");
+
+        for (int i = 0; i < nilai.length; i++) {
+            System.out.println("nilai[" + i + "] = " + nilai[i]);
+        }
+    }
+}
+
